@@ -26,7 +26,7 @@ span{
     padding:0.5rem;
 }
 .flied>:nth-child(1n){
-    height:25px;
+    height:35px;
     outline:none;
     border:none;
     border-radius: 0;
