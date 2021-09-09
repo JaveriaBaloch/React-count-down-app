@@ -1,0 +1,10 @@
+body{
+    background: linear-gradient(to left, rgba(28, 7, 105, 0.6),rgba(36, 0, 0, 0.7)), url(../img/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
