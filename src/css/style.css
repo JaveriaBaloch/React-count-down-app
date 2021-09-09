@@ -6,5 +6,43 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    text-align: center
+}
+main{
+    background: rgb(230, 228, 228);
+    box-shadow: 5px 5px 5px rgb(110, 110, 110);
+    width: fit-content;
+    height: fit-content;
+    padding: 1rem;
+    border-radius: 5px;
+}
+hr{
+    margin-top: -3px;
+}
+span{
+    padding:0.5rem;
+}
+.flied{
+    padding:0.5rem;
+}
+.flied>:nth-child(1n){
+    height:25px;
+    outline:none;
+    border:none;
+    border-radius: 0;
+    cursor:pointer
+}
+.flied input{
+width:70%;
+}
+.flied button{
+    width:23%;
+    background: linear-gradient(to left,crimson,blue);
+    color: aliceblue;
+    transition: all 1s;
+}
+.flied button:hover{
+    width:23%;
+    background: linear-gradient(rgb(220, 93, 20),blue);
+    color: aliceblue;
 }
