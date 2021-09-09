@@ -46,3 +46,6 @@ width:70%;
     background: linear-gradient(rgb(220, 93, 20),blue);
     color: aliceblue;
 }
+h1,small{
+    font-family: verdana;
+}
